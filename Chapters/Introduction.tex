@@ -7,7 +7,17 @@
 
 \section{Problem description}
 \label{sec:ProblemDescription}
-  
+Several games use random number generators to procedurally generate puzzles, levels, worlds, or universes~\cite{Hendrikx2013}.
+Some of these may produce near infinite worlds, only limited by the discrete properties of a computer.
+Minecraft is such a game, where an infinite world of cubes is generated~\cite{Minecraft:Website}, and No Man's Sky is game that generates a universe with galaxies, star systems, planets, ships, animals and plants~\cite{NMS:Website}.
+With infinite possibilities, there is a problem of generating interesting levels.
+
+A simple example is Sudoku, where a user may want to try a challenging puzzle.
+A computer algorithm can generate a random puzzle, but it does not know if the puzzle will be challenging for the user.
+A human can assess the level of difficulty in the puzzle, but this is not viable if thousands, or infinite number of puzzles are generated.
+The same applies to a game like No Man's Sky where 18 quintillion planets are generated~\cite{NMS:Size}.
+A human player may stop playing if the planets are not interesting. Therefore, a way of assessing a generated level without human interaction is needed.
+
 
 %What’s ’wrong’ with the world we’re living in? E.g.
 %• Something is currently too difficult.

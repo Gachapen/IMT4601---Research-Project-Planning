@@ -8,7 +8,9 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}     % For utf8 encoded .tex files allows norwegian characters in the files. This can be dangerous if you change to a differnt editor.
-\usepackage[pdftex]{graphicx, hyperref}   % For cross references in pdf
+\usepackage{graphicx}
+\usepackage[hyphens]{url}
+\usepackage[hidelinks,breaklinks]{hyperref}
 \usepackage{color}              % For colouring text 
 \hypersetup{
     colorlinks=false,     
@@ -18,7 +20,6 @@
     urlcolor=blue           % color of external links
 }
 \usepackage{csvsimple}  % for simple table reading and display
-\usepackage{url}
 
 % Set to true ONLY if using Harvard citation style
 \newboolean{HarvardCitations}
@@ -68,6 +69,6 @@
 
 \appendix %after this line all chapters will have letters instead of numbers
 %\include{appendix}
-\include{Appendices/Dictionary}
+%\include{Appendices/Dictionary}
 
 \end{document}
